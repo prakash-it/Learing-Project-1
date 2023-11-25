@@ -4,6 +4,11 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+body
+{
+    background-color:rgb(255, 255, 255)
+}
 .logo
 {
     width: 150px;
@@ -37,7 +42,7 @@
 
 .container
 {
-  
+  display: contents;
 }
 
 img
