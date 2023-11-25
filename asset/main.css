@@ -12,3 +12,38 @@
 
 }
 
+.naviation
+{
+    padding-left: 100px;
+    color: azure;
+    cursor: pointer;
+}
+ 
+.naviation > a
+{
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.bold
+{
+    font-style: oblique;
+    font-size: 100px;
+    color: rgb(0, 155, 0);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container
+{
+  
+}
+
+img
+{
+    justify-items: left;
+ 
+    height: 180px;
+    width: 170px;
+}
