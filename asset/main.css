@@ -84,10 +84,39 @@ header
   transition: transform 0.2s ease-in-out; 
 }
 
+/* Contant  */
 
+.main
+{
+    margin-top: 70px;
+    container:unset;
+}
 .img1
 {
-    width: 250px;
+    width: 30vw;
+    height: 35vw;
     cursor: pointer;
-    margin-bottom: 20px;
+    padding: 1rem;
+    
+}
+
+.ph1
+{ 
+    float: left;
+    margin-right: 1rem;
+}
+
+p
+{ 
+    margin-left: 10px;
+}
+
+.ph2
+{
+    float: right;
+    margin-left: 1rem;
+}
+.a1
+{
+    margin-right: 10x;
 }
