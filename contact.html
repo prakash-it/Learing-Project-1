@@ -6,43 +6,31 @@
     <title>OPPO</title>
     <link rel="stylesheet" href="asset/main.css">
 </head>
-<body class="contact">
+<body>
     <header>
-        <div class="nav">
-            <a href="index.html"><img src="img/oppo-logo-40750.png" alt="Welcome"></a>
-        <nav>
-            
-            <a href="index.html">Home</a>
-            <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
-        </nav>
-        </div>
-    </header>
-    
-
-        <h1> Contact form</h1>
-       <form action="">
+        <a href="index.html"><img src="img/oppo-logo-40750.png" class="logo"></a>
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="Contact.html">Contact</a>
+                <a href="about.html">About</a>
+            </nav>
+    </header> 
       
-        <div class="row">
-        <label for="name">Name:</label>
-        <input type="text" placeholder="Enter name">
-        </div>
+     <div class="form">
+        {
+            <h1>Contact</h1>
+            <form action="">
+                <label for="">Name:</label>
+                 <input type="text" placeholder="Enter name">
 
-        <div class="row">
-        <label for="email">Email:</label>
-        <input type="email" placeholder="Enter email">
-        </div>
-    
-        <div class="row">
-            <label for=""> Message:</label>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Any Message"></textarea>
-        </div>
+                 <label for="">Email:</label>
+                 <input type="email" placeholder="Enter email">
 
-        <div class="button">
-            <button>Reset</button>
-        <button>Submit</button>
-        </div>
+                 <textarea name="Message" id="" cols="30" rows="10">Message:</textarea>
 
-     </form>
+                 <button> Submit </button>
+            </form>
+        }
+     </div>
 </body>
 </html>
