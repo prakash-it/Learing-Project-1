@@ -23,7 +23,7 @@ header
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: rgba(0, 0, 0, 0.781);
+    background: rgba(141, 130, 130, 0.781);
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -98,7 +98,10 @@ header
   transition: transform 0.2s ease-in-out; 
 }
 
-
+.con2
+{
+    margin-top: 15px;
+}
 /* contact page */
 .form
 { 
