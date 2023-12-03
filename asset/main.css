@@ -86,7 +86,7 @@ header
     margin: 20px;
     font-size: 30px;
     color: rgb(24, 107, 24);
-
+    
     text-shadow: 0px 0px 10px rgb(24, 107, 24),
                  0px 0px 20px rgb(24, 107, 24);
 }
